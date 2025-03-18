@@ -3,7 +3,7 @@
     <string name="action_go">Go</string>
     <string name="baking_title">AI reading/writing to a data source POC</string>
     <string name="label_prompt">Prompt</string>
-    <string name="prompt_placeholder">Would you like to add or cancel an appointment?</string>
+    <string name="prompt_placeholder">Cancel the appointment with Jenna for 3/14/2025 @ 3PM</string>
     <string name="image1_description">Cupcake</string>
     <string name="image2_description">Cookies</string>
     <string name="image3_description">Cake</string>

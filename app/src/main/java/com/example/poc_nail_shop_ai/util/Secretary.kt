@@ -1,7 +1,6 @@
 package com.example.poc_nail_shop_ai.util
 
 import android.util.Log
-import com.example.poc_nail_shop_ai.BuildConfig
 import com.example.poc_nail_shop_ai.data.local.MockDB
 import com.example.poc_nail_shop_ai.domain.model.Appointment
 import com.example.poc_nail_shop_ai.domain.model.GeminiResponse
@@ -19,10 +18,12 @@ import kotlinx.serialization.json.Json
  * Acts as a Secretary using AI
  */
 object Secretary {
+    /** hide this later! **/
+    private const val API_KEY = "AIzaSyC7wLUIdgF9izf036uDKWHYLpH82MyC4IQ"
 
     private val generativeModel = GenerativeModel(
         modelName = "gemini-1.5-flash",
-        apiKey = BuildConfig.apiKey,
+        apiKey = API_KEY,
         generationConfig = generationConfig {
             responseMimeType = "application/json"
         }
