@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">POC_Nail_Shop_AI</string>
+    <string name="action_go">Go</string>
+    <string name="baking_title">AI reading/writing to a data source POC</string>
+    <string name="label_prompt">Prompt</string>
+    <string name="prompt_placeholder">Would you like to add or cancel an appointment?</string>
+    <string name="image1_description">Cupcake</string>
+    <string name="image2_description">Cookies</string>
+    <string name="image3_description">Cake</string>
+    <string name="results_placeholder">(Results will appear here)</string>
+</resources>
